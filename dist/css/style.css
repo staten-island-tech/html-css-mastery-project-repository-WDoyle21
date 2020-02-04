@@ -4,12 +4,15 @@ html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+ background-color: rgb(255, 153, 0);
+  opacity: 80%;
 }
 
 .header{
     font-family: 'Italianno', cursive;
     text-align: center;
-    background-color: red;
+    background-color: orangered;
+  
 }
 
 .header1{
@@ -18,4 +21,56 @@ html {
 
 .header2{
   font-size: 75px;
+}
+
+.body{
+  background-color: orangered;
+}
+
+.body1{
+  font-family: 'Italiana', serif;
+}
+
+.foodblock{
+  background-color: orangered;
+  display: flex;
+  justify-content: space-around;
+}
+
+.food1{
+  max-width: 24rem;
+  max-height: 16rem;
+  opacity: .5;
+}
+.food2{
+  max-width: 24rem;
+  max-height: 16rem;
+  opacity: .5;
+}
+.food3{
+  max-width: 24rem;
+  max-height: 16rem;
+  opacity: .5;
+}
+
+.food1:hover{
+  opacity: 1;
+  max-width: 30rem;
+  max-height: 20rem;
+}
+.food2:hover{
+  opacity: 1;
+  max-width: 30rem;
+  max-height: 20rem;
+}
+.food3:hover{
+  opacity: 1;
+  max-width: 30rem;
+  max-height: 20rem;
+}
+
+h6{
+  font-family: 'Italiana', serif;
+  font-size: 20px;
+  text-align: center;
 }
