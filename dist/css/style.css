@@ -9,4 +9,13 @@ html {
 .header{
     font-family: 'Italianno', cursive;
     text-align: center;
+    background-color: red;
+}
+
+.header1{
+  font-size: 100px;
+}
+
+.header2{
+  font-size: 75px;
 }
