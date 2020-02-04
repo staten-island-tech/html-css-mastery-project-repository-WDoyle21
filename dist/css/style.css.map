@@ -2,7 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../style.scss"
+        "../../src/scss/style.scss",
+        "../../src/scss/_variables.scss"
     ],
     "names": [],
     "file": "style.css"
