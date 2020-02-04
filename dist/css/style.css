@@ -4,14 +4,14 @@ html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
- background-color: rgb(255, 153, 0);
+ background-color: rgb(255, 102, 0);
   opacity: 80%;
 }
 
 .header{
     font-family: 'Italianno', cursive;
     text-align: center;
-    background-color: orangered;
+    background-color: rgb(245, 45, 34)
   
 }
 
@@ -24,7 +24,7 @@ html {
 }
 
 .body{
-  background-color: orangered;
+  background-color: rgb(245, 45, 34);
 }
 
 .body1{
@@ -32,41 +32,41 @@ html {
 }
 
 .foodblock{
-  background-color: orangered;
+  background-color: rgb(245, 45, 34);
   display: flex;
   justify-content: space-around;
 }
 
 .food1{
-  max-width: 24rem;
-  max-height: 16rem;
+  width: 40rem;
+  height: 30rem;
   opacity: .5;
 }
 .food2{
-  max-width: 24rem;
-  max-height: 16rem;
+  width: 40rem;
+  height: 30rem;
   opacity: .5;
 }
 .food3{
-  max-width: 24rem;
-  max-height: 16rem;
+  width: 40rem;
+  height: 30rem;
   opacity: .5;
 }
 
 .food1:hover{
   opacity: 1;
-  max-width: 30rem;
-  max-height: 20rem;
+  width: 50rem;
+  height: 37.5rem;
 }
 .food2:hover{
   opacity: 1;
-  max-width: 30rem;
-  max-height: 20rem;
+  width: 50rem;
+  height: 37.5rem;
 }
 .food3:hover{
   opacity: 1;
-  max-width: 30rem;
-  max-height: 20rem;
+  width: 50rem;
+  height: 37.5rem;
 }
 
 h6{

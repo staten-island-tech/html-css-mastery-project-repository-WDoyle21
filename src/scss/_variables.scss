@@ -1,20 +1,23 @@
 $desktop: 1200px;
 $laptop: 900px;
 $tablet: 600px;
+$primary: rgb(232, 64, 35);
+$secondary: rgb(245, 45, 34);
 
 @mixin desktop {
     @media (min-width: #{$desktop}) {
       @content;
     }
   }
-  @mixin laptop {
+@mixin laptop {
     @media (min-width: #{$laptop}) {
       @content;
     }
   }
-  @mixin tablet {
+@mixin tablet {
     @media (min-width: #{$tablet}) {
       @content;
     }
   }
   
+
