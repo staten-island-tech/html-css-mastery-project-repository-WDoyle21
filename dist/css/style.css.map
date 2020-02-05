@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACMA;;;;;;;;;;;;;;MAcM",
     "sources": [
         "../../src/scss/style.scss",
         "../../src/scss/_variables.scss"
