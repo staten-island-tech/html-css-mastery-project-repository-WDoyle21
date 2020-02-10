@@ -4,15 +4,17 @@ html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  background-color: #0fc518;
+}
+
+.backgroundsauce {
   background-image: url(media/betterpizzabackground.jpg);
   background-size: cover;
-  opacity: 80%;
 }
 
 .header {
   font-family: 'Italianno', cursive;
   text-align: center;
-  background-color: #f52d22;
 }
 
 .header1 {
@@ -28,12 +30,18 @@ html {
   background-color: #f52d22;
 }
 
+.body2 {
+  font-family: 'Italiana', serif;
+  background-color: #f52d22;
+}
+
 .foodblock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .food1 {
@@ -56,25 +64,36 @@ html {
 
 .food1:hover {
   opacity: 1;
-  width: 50rem;
-  height: 37.5rem;
 }
 
 .food2:hover {
   opacity: 1;
-  width: 50rem;
-  height: 37.5rem;
 }
 
 .food3:hover {
   opacity: 1;
-  width: 50rem;
-  height: 37.5rem;
 }
 
-h6 {
+.bottomtext {
   font-family: 'Italiana', serif;
   font-size: 20px;
   text-align: center;
+  background-color: #f52d22;
+}
+
+.menublock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu {
+  width: 180rem;
+  height: 80rem;
+  opacity: .6;
+}
+
+.menu:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
