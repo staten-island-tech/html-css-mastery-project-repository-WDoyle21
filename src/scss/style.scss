@@ -39,7 +39,7 @@ html {
   
   .foodblock{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .food1{
@@ -78,13 +78,18 @@ html {
   }
   
   .menublock{
-display: flex;
+   display: flex;
+  justify-content: center;
   }
   
   .menu{
    width: 180rem;
    height: 80rem;
    opacity: .6;
+   @include tablet{
+     width: 90rem;
+     height: 40rem;
+   }
   }
 
   .menu:hover{
