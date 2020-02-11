@@ -12,7 +12,9 @@ html {
   .backgroundsauce{
     background-image: url(media/betterpizzabackground.jpg);
     background-size: cover;
+
   }
+
   .header{
       font-family: 'Italianno', cursive;
       text-align: center;
@@ -46,16 +48,31 @@ html {
     width: 40rem;
     height: 30rem;
     opacity: .5;
+    @include tablet{
+      width: 20rem;
+      height: 15rem;
+      opacity: 1;
+    }
   }
   .food2{
     width: 40rem;
     height: 30rem;
     opacity: .5;
+    @include tablet{
+      width: 20rem;
+      height: 15rem;
+      opacity: 1;
+    }
   }
   .food3{
     width: 40rem;
     height: 30rem;
     opacity: .5;
+    @include tablet{
+      width: 20rem;
+      height: 15rem;
+      opacity: 1;
+    }
   }
   
   .food1:hover{
@@ -86,10 +103,10 @@ html {
    width: 180rem;
    height: 80rem;
    opacity: .6;
-   @include tablet{
-     width: 90rem;
-     height: 40rem;
-   }
+   @include tablet;
+   width: 60rem;
+   height: 40rem;
+   opacity: 1;
   }
 
   .menu:hover{

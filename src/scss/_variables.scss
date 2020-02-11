@@ -1,13 +1,9 @@
-$desktop: 1200px;
+$phone: 600px;
 $laptop: 900px;
-$tablet: 600px;
+$tablet: 1100px;
 
 
-@mixin desktop {
-    @media (max-width: #{$desktop}) {
-      @content;
-    }
-  }
+
 @mixin laptop {
     @media (max-width: #{$laptop}) {
       @content;
@@ -18,10 +14,16 @@ $tablet: 600px;
       @content;
     }
   } 
+
+  @mixin phone {
+    @media (max-width: #{$phone}) {
+      @content;
+    }
+  } 
   
  $colors:(
-  secondary: rgb(16, 180, 25),
-  primary: rgb(245, 45, 34),
+  secondary: rgb(255, 0, 0),
+  primary: rgb(253, 80, 71),
 ) ;
 
 @function color($color-name){
