@@ -68,11 +68,11 @@ html {
     width: 40rem;
     height: 30rem;
     opacity: .5;
-    @include tablet{
+    /*@include tablet{
       width: 20rem;
       height: 15rem;
       opacity: 1;
-    }
+    }*/
   }
   
   .food1:hover{

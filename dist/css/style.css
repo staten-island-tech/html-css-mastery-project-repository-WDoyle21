@@ -75,14 +75,11 @@ html {
   width: 40rem;
   height: 30rem;
   opacity: .5;
-}
-
-@media (max-width: 1100px) {
-  .food3 {
-    width: 20rem;
-    height: 15rem;
-    opacity: 1;
-  }
+  /*@include tablet{
+      width: 20rem;
+      height: 15rem;
+      opacity: 1;
+    }*/
 }
 
 .food1:hover {
