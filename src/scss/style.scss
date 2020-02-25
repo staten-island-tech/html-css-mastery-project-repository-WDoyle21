@@ -20,6 +20,21 @@ html {
       text-align: center;
       
   }
+
+  .founder{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .chef{
+    height: 50rem;
+    width: auto;
+  }
+
+  .words{
+    font-family: 'Italianno', cursive;
+    font-size: 48px;
+  }
   
   .header1{
     font-size: 150px;
@@ -103,6 +118,10 @@ html {
    width: 180rem;
    height: 80rem;
    opacity: .6;
+    /*@include tablet;
+   width: 60rem;
+   height: 40rem;
+   opacity: 1;*/
   }
 
   .menu:hover{
