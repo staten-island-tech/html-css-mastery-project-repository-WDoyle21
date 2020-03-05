@@ -11,13 +11,17 @@
 
   .chefquote{
     display: flex;
+    flex-direction: column;
   }
 
   .mario{
     font-family: 'Italianno', cursive;
+    font-size: 64px;
+    margin: 0rem;
   }
 
   .words{
     font-family: 'Italiana', serif;
     font-size: 48px;
+    
   }

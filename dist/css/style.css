@@ -111,15 +111,6 @@
   opacity: 1;
 }
 
-html {
-  padding: 0;
-  margin: 0;
-  font-size: 62.5%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: red;
-}
-
 .founder {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,18 +129,21 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mario {
+  font-family: 'Italianno', cursive;
+  font-size: 64px;
+  margin: 0rem;
 }
 
 .words {
-  font-family: 'Italianno', cursive;
-  font-size: 48px;
-}
-
-.bottomtext {
   font-family: 'Italiana', serif;
-  font-size: 20px;
-  text-align: center;
-  background-color: #fd5047;
+  font-size: 48px;
 }
 
 .reviews {
@@ -160,11 +154,28 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Italiana', serif;
 }
 
 .introreview {
   text-align: center;
+  font-size: 48px;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+.bottomtext {
+  font-family: 'Italiana', serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fd5047;
 }
 /*# sourceMappingURL=style.css.map */
