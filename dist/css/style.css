@@ -1,12 +1,3 @@
-html {
-  padding: 0;
-  margin: 0;
-  font-size: 62.5%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: red;
-}
-
 .backgroundsauce {
   background-image: url(media/betterpizzabackground.jpg);
   background-size: cover;
@@ -15,24 +6,6 @@ html {
 .header {
   font-family: 'Italianno', cursive;
   text-align: center;
-}
-
-.founder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.chef {
-  height: 50rem;
-  width: auto;
-}
-
-.words {
-  font-family: 'Italianno', cursive;
-  font-size: 48px;
 }
 
 .header1 {
@@ -44,11 +17,6 @@ html {
 }
 
 .body1 {
-  font-family: 'Italiana', serif;
-  background-color: #fd5047;
-}
-
-.body2 {
   font-family: 'Italiana', serif;
   background-color: #fd5047;
 }
@@ -115,10 +83,8 @@ html {
   opacity: 1;
 }
 
-.bottomtext {
+.body2 {
   font-family: 'Italiana', serif;
-  font-size: 20px;
-  text-align: center;
   background-color: #fd5047;
 }
 
@@ -136,13 +102,54 @@ html {
   height: 80rem;
   opacity: .6;
   /*@include tablet;
-   width: 60rem;
-   height: 40rem;
-   opacity: 1;*/
+    width: 60rem;
+    height: 40rem;
+    opacity: 1;*/
 }
 
 .menu:hover {
   opacity: 1;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+.founder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.chef {
+  height: 50rem;
+  width: auto;
+  margin: 2rem;
+}
+
+.chefquote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.words {
+  font-family: 'Italianno', cursive;
+  font-size: 48px;
+}
+
+.bottomtext {
+  font-family: 'Italiana', serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fd5047;
 }
 
 .reviews {
@@ -155,5 +162,9 @@ html {
           flex-direction: column;
   font-size: 15px;
   font-family: 'Italiana', serif;
+}
+
+.introreview {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

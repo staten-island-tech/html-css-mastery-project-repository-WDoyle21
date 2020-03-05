@@ -1,0 +1,51 @@
+.foodblock{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .food1{
+    width: 40rem;
+    height: 30rem;
+    opacity: .5;
+    @include tablet{
+      width: 20rem;
+      height: 15rem;
+      opacity: 1;
+    }
+  }
+  .food2{
+    width: 40rem;
+    height: 30rem;
+    opacity: .5;
+    @include tablet{
+      width: 20rem;
+      height: 15rem;
+      opacity: 1;
+    }
+  }
+  .food3{
+    width: 40rem;
+    height: 30rem;
+    opacity: .5;
+    @include tablet{
+      width: 20rem;
+      height: 15rem;
+      opacity: 1;
+    }
+  }
+  
+  .food1:hover{
+    opacity: 1;
+  }
+  .food2:hover{
+    opacity: 1;
+   
+  }
+  .food3:hover{
+    opacity: 1;
+    
+  }
+  .body2{
+    font-family: 'Italiana', serif;
+      background-color: color(primary);
+  }

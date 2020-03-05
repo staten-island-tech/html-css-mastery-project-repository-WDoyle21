@@ -1,4 +1,9 @@
 @import "./variables";
+@import "./background";
+@import "./food";
+@import "./menu";
+@import "./founder";
+@import "/.reviews";
 
 html {
     padding: 0;
@@ -9,98 +14,6 @@ html {
             background-color: color(secondary);
    
   }
-  .backgroundsauce{
-    background-image: url(media/betterpizzabackground.jpg);
-    background-size: cover;
-
-  }
-
-  .header{
-      font-family: 'Italianno', cursive;
-      text-align: center;
-      
-  }
-
-  .founder{
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .chef{
-    height: 50rem;
-    width: auto;
-  }
-
-  .words{
-    font-family: 'Italianno', cursive;
-    font-size: 48px;
-  }
-  
-  .header1{
-    font-size: 150px;
-  }
-  
-  .header2{
-    font-size: 100px;
-  }
-  
-  .body1{
-    font-family: 'Italiana', serif;
-    background-color: color(primary);
-  }
-.body2{
-  font-family: 'Italiana', serif;
-    background-color: color(primary);
-}
-
-  
-  .foodblock{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .food1{
-    width: 40rem;
-    height: 30rem;
-    opacity: .5;
-    @include tablet{
-      width: 20rem;
-      height: 15rem;
-      opacity: 1;
-    }
-  }
-  .food2{
-    width: 40rem;
-    height: 30rem;
-    opacity: .5;
-    @include tablet{
-      width: 20rem;
-      height: 15rem;
-      opacity: 1;
-    }
-  }
-  .food3{
-    width: 40rem;
-    height: 30rem;
-    opacity: .5;
-    @include tablet{
-      width: 20rem;
-      height: 15rem;
-      opacity: 1;
-    }
-  }
-  
-  .food1:hover{
-    opacity: 1;
-  }
-  .food2:hover{
-    opacity: 1;
-   
-  }
-  .food3:hover{
-    opacity: 1;
-    
-  }
   
   .bottomtext{
     font-family: 'Italiana', serif;
@@ -109,29 +22,18 @@ html {
     background-color: color(primary);
   }
   
-  .menublock{
-   display: flex;
-  justify-content: center;
-  }
   
-  .menu{
-   width: 180rem;
-   height: 80rem;
-   opacity: .6;
-    /*@include tablet;
-   width: 60rem;
-   height: 40rem;
-   opacity: 1;*/
-  }
+  
+ 
+  
+ 
 
-  .menu:hover{
-    opacity: 1;
-  }
 
-.reviews{
-  display: flex;
-  flex-direction: column;
-  font-size: 15px;
-  font-family: 'Italiana', serif;
-}
+  
+ 
+  
+
+ 
+
+
 
