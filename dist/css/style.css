@@ -10,6 +10,7 @@
 
 .header1 {
   font-size: 150px;
+  margin: 0rem;
 }
 
 .header2 {
@@ -183,7 +184,7 @@ html {
   margin: 0;
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #ff1a09;
 }
 
