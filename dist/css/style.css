@@ -19,7 +19,7 @@
 
 .body1 {
   font-family: 'Italiana', serif;
-  background-color: #fd5047;
+  background-color: #e23737;
 }
 
 .foodblock {
@@ -77,19 +77,31 @@
 
 .food1:hover {
   opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .food2:hover {
   opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .food3:hover {
   opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .body2 {
   font-family: 'Italiana', serif;
-  background-color: #fd5047;
+  background-color: #e23737;
 }
 
 .menublock {
@@ -102,9 +114,10 @@
 }
 
 .menu {
-  width: 180rem;
-  height: 80rem;
+  width: 150rem;
+  height: 60rem;
   opacity: .6;
+  margin: 3rem;
   /*@include tablet;
     width: 60rem;
     height: 40rem;
@@ -113,6 +126,10 @@
 
 .menu:hover {
   opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .founder {
@@ -127,6 +144,7 @@
   height: 50rem;
   width: auto;
   margin: 2rem;
+  border: 6px black solid;
 }
 
 .chefquote {
@@ -168,39 +186,25 @@
 }
 
 .review1 {
-  background-color: #fd5047;
+  background-color: #e23737;
 }
 
 .review2 {
-  background-color: #fd5047;
+  background-color: #e23737;
 }
 
 .review3 {
-  background-color: #fd5047;
-}
-
-html {
-  padding: 0;
-  margin: 0;
-  font-size: 62.5%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: #ff1a09;
-}
-
-.bottomtext {
-  font-family: 'Italiana', serif;
-  font-size: 20px;
-  text-align: center;
-  background-color: #fd5047;
+  background-color: #e23737;
 }
 
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: auto;
+  font-size: 8rem;
+  width: 8rem;
+  height: 8rem;
   text-align: center;
   text-decoration: none;
+  margin: 5px 2px;
   border-radius: 50%;
 }
 
@@ -209,31 +213,42 @@ html {
 }
 
 .fa-facebook {
-  background: #fd5047;
-  color: #ff1a09;
-  width: 60px;
-  height: 60px;
+  background: #e23737;
+  color: #b80000;
 }
 
 .fa-twitter {
-  background: #fd5047;
-  color: #ff1a09;
-  width: 60px;
-  height: 60px;
+  background: #e23737;
+  color: #b80000;
 }
 
 .fa-instagram {
-  background: #fd5047;
-  color: #ff1a09;
-  width: 60px;
-  height: 60px;
+  background: #e23737;
+  color: #b80000;
 }
 
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #b80000;
+}
+
+.bottomtext {
+  font-family: 'Italiana', serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #e23737;
 }
 /*# sourceMappingURL=style.css.map */

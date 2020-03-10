@@ -4,9 +4,10 @@
    }
    
    .menu{
-    width: 180rem;
-    height: 80rem;
+    width: 150rem;
+    height: 60rem;
     opacity: .6;
+    margin: 3rem;
      /*@include tablet;
     width: 60rem;
     height: 40rem;
@@ -15,4 +16,6 @@
  
    .menu:hover{
      opacity: 1;
+     transform: scale(1.1);
+     transition: all .2s ease-in-out;
    }

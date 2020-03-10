@@ -4,6 +4,7 @@
 @import "./menu";
 @import "./founder";
 @import "./reviews";
+@import "./icons";
 
 html {
     padding: 0;
@@ -21,38 +22,9 @@ html {
     background-color: color(primary);
   }
 
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  .fa:hover {
-      opacity: 0.7;
-  }
+ 
+
   
-  .fa-facebook {
-    background: color(primary);
-    color: color(secondary);
-  }
-
-  .fa-twitter {
-    background: color(primary);
-    color: color(secondary);
-  }
-
-  .fa-instagram {
-    background: color(primary);
-    color: color(secondary);
-  }
-
-  .footer{
-    display: flex;
-    justify-content: space-evenly;
-  }
   
   
   
