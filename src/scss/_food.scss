@@ -13,6 +13,13 @@
       width: 20rem;
       height: 15rem;
       opacity: 1;
+      margin: 0rem;
+    }
+    @include phone{
+      width: 12rem;
+      height: 7rem;
+      opacity: 1;
+      margin: 1rem;
     }
   }
   .food2{
@@ -24,6 +31,13 @@
       width: 20rem;
       height: 15rem;
       opacity: 1;
+      margin: 0rem;
+    }
+    @include phone{
+      width: 12rem;
+      height: 7rem;
+      opacity: 1;
+      margin: 1rem;
     }
   }
   .food3{
@@ -35,6 +49,13 @@
       width: 20rem;
       height: 15rem;
       opacity: 1;
+      margin: 0rem;
+    }
+    @include phone{
+      width: 12rem;
+      height: 7rem;
+      opacity: 1;
+      margin: 1rem;
     }
   }
   

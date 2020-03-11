@@ -1,14 +1,6 @@
 $phone: 600px;
-$laptop: 900px;
-$tablet: 1100px;
+$tablet: 1200px;
 
-
-
-@mixin laptop {
-    @media (max-width: #{$laptop}) {
-      @content;
-    }
-  }
 @mixin tablet {
     @media (max-width: #{$tablet}) {
       @content;
