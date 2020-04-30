@@ -1,24 +1,43 @@
 .backgroundsauce{
     background-image: url(media/betterpizzabackground.jpg);
     background-size: cover;
+    opacity: 0.8;
   }
 
   .header{
       font-family: 'Italianno', cursive;
       text-align: center;
-      
   }
 
   .header1{
     font-size: 150px;
     margin: 0rem;
+    @include tablet{
+      font-size: 125px;
+    };
+    @include phone{
+      font-size: 60px;
+    };
+   
   }
   
   .header2{
     font-size: 100px;
+    @include tablet{
+      font-size: 85px;
+      margin: 1;
+    };
+    @include phone{
+      font-size: 28px;
+    };
+    
   }
 
   .body1{
     font-family: 'Italiana', serif;
     background-color: color(primary);
+    @include phone{
+      font-size: 16px;
+      margin: 1rem;
+    };
   }

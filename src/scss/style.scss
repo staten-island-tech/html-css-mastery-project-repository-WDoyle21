@@ -20,4 +20,10 @@ html {
     font-size: 20px;
     text-align: center;
     background-color: color(primary);
+    @include tablet{
+      font-size: 16px;
+    }
+    @include phone{
+      font-size: 14px;
+    }
   }

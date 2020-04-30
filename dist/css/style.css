@@ -1,6 +1,7 @@
 .backgroundsauce {
   background-image: url(media/betterpizzabackground.jpg);
   background-size: cover;
+  opacity: 0.8;
 }
 
 .header {
@@ -13,13 +14,45 @@
   margin: 0rem;
 }
 
+@media (max-width: 1024px) {
+  .header1 {
+    font-size: 125px;
+  }
+}
+
+@media (max-width: 736px) {
+  .header1 {
+    font-size: 60px;
+  }
+}
+
 .header2 {
   font-size: 100px;
+}
+
+@media (max-width: 1024px) {
+  .header2 {
+    font-size: 85px;
+    margin: 1;
+  }
+}
+
+@media (max-width: 736px) {
+  .header2 {
+    font-size: 28px;
+  }
 }
 
 .body1 {
   font-family: 'Italiana', serif;
   background-color: #e23737;
+}
+
+@media (max-width: 736px) {
+  .body1 {
+    font-size: 16px;
+    margin: 1rem;
+  }
 }
 
 .foodblock {
@@ -37,7 +70,7 @@
   margin: 1rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .food1 {
     width: 20rem;
     height: 15rem;
@@ -46,7 +79,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 736px) {
   .food1 {
     width: 12rem;
     height: 7rem;
@@ -62,7 +95,7 @@
   margin: 1rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .food2 {
     width: 20rem;
     height: 15rem;
@@ -71,7 +104,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 736px) {
   .food2 {
     width: 12rem;
     height: 7rem;
@@ -87,7 +120,7 @@
   margin: 1rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .food3 {
     width: 20rem;
     height: 15rem;
@@ -96,7 +129,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 736px) {
   .food3 {
     width: 12rem;
     height: 7rem;
@@ -134,6 +167,13 @@
   background-color: #e23737;
 }
 
+@media (max-width: 736px) {
+  .body2 {
+    font-size: 16px;
+    margin: 1rem;
+  }
+}
+
 .menublock {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,7 +190,7 @@
   margin: 3rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .menu {
     width: 70rem;
     height: 45rem;
@@ -159,19 +199,18 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 736px) {
   .menu {
     width: 35rem;
     height: 25rem;
-    margin: -1rem;
     opacity: 1;
   }
 }
 
 .menu:hover {
   opacity: 1;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -193,6 +232,23 @@
           filter: grayscale(100);
 }
 
+@media (max-width: 1024px) {
+  .chef {
+    height: 24rem;
+    width: auto;
+    border: 4px black solid;
+  }
+}
+
+@media (max-width: 736px) {
+  .chef {
+    height: 10rem;
+    width: auto;
+    margin-left: 1;
+    border: 2px black solid;
+  }
+}
+
 .chefquote {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,15 +259,39 @@
           flex-direction: column;
 }
 
+@media (max-width: 736px) {
+  .chefquote {
+    margin: 1rem;
+  }
+}
+
 .mario {
   font-family: 'Italianno', cursive;
   font-size: 64px;
   margin: 0rem;
 }
 
+@media (max-width: 736px) {
+  .mario {
+    font-size: 18px;
+  }
+}
+
 .words {
   font-family: 'Italiana', serif;
   font-size: 48px;
+}
+
+@media (max-width: 1024px) {
+  .words {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 736px) {
+  .words {
+    font-size: 10px;
+  }
 }
 
 .reviews {
@@ -231,16 +311,41 @@
   font-size: 48px;
 }
 
+@media (max-width: 736px) {
+  .introreview {
+    font-size: 24px;
+    margin: 1;
+  }
+}
+
 .review1 {
   background-color: #e23737;
+}
+
+@media (max-width: 736px) {
+  .review1 {
+    font-size: 12px;
+  }
 }
 
 .review2 {
   background-color: #e23737;
 }
 
+@media (max-width: 736px) {
+  .review2 {
+    font-size: 12px;
+  }
+}
+
 .review3 {
   background-color: #e23737;
+}
+
+@media (max-width: 736px) {
+  .review3 {
+    font-size: 12px;
+  }
 }
 
 .fa {
@@ -263,14 +368,38 @@
   color: #b80000;
 }
 
+@media (max-width: 736px) {
+  .fa-facebook {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
 .fa-twitter {
   background: #e23737;
   color: #b80000;
 }
 
+@media (max-width: 736px) {
+  .fa-twitter {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
 .fa-instagram {
   background: #e23737;
   color: #b80000;
+}
+
+@media (max-width: 736px) {
+  .fa-instagram {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
 .footer {
@@ -296,5 +425,17 @@ html {
   font-size: 20px;
   text-align: center;
   background-color: #e23737;
+}
+
+@media (max-width: 1024px) {
+  .bottomtext {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 736px) {
+  .bottomtext {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

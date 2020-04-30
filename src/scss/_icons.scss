@@ -16,16 +16,31 @@
   .fa-facebook {
     background: color(primary);
     color: color(secondary);
+    @include phone{
+      font-size: 2rem;
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
   .fa-twitter {
     background: color(primary);
     color: color(secondary);
+    @include phone{
+      font-size: 2rem;
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
   .fa-instagram {
     background: color(primary);
     color: color(secondary);
+    @include phone{
+      font-size: 2rem;
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
   .footer{

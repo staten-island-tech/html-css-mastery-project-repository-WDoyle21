@@ -8,16 +8,29 @@
 .introreview{
   text-align: center;
   font-size: 48px;
+  @include phone{
+    font-size: 24px;
+    margin: 1;
+  };
 }
 
 .review1{
   background-color: color(primary);
+  @include phone{
+    font-size: 12px;
+  };
 }
 
 .review2{
   background-color: color(primary);
+  @include phone{
+    font-size: 12px;
+  };
 }
 
 .review3{
   background-color: color(primary);
+  @include phone{
+    font-size: 12px;
+  };
 }

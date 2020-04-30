@@ -8,22 +8,46 @@
     width: auto;
     margin: 2rem;
     border: 6px black solid;
-    filter: grayscale(100)
+    filter: grayscale(100);
+    @include tablet{
+      height: 24rem;
+      width: auto;
+      border: 4px black solid;
+    }
+    @include phone{
+      height: 10rem;
+      width: auto;
+      margin-left: 1;
+      border: 2px black solid;
+    }
+    
   }
 
   .chefquote{
     display: flex;
     flex-direction: column;
+    @include phone{
+      margin: 1rem;
+    };
   }
 
   .mario{
     font-family: 'Italianno', cursive;
     font-size: 64px;
     margin: 0rem;
+    @include phone{
+      font-size: 18px;
+    };
   }
 
   .words{
     font-family: 'Italiana', serif;
     font-size: 48px;
+    @include tablet{
+      font-size: 20px
+    };
+    @include phone{
+      font-size: 10px;
+    };
     
   }
